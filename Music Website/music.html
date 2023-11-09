@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+            <link rel="stylesheet" href="music.css">
+            <script src = "https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.js"></script>
+            <title>Music Website</title>
+    </head>
+    <body>
+        <header>
+            <div class="menu_side">
+                <h1>PlayList</h1>
+                <div class="playlist">
+                    <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
+                  <h4><span></span><i class="bi bi-music-note-beamed"></i> Last Listening</h4>
+                    <h4><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+               </div>
+               <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="C:\Users\kush\Desktop\artworks-000584325302-2wkx5w-t500x500.jpg" alt="">
+                    <h5>On My Way <br>
+                         <div class="subtitle">Alan Walker</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5>Tik Tok<br>
+                         <div class="subtitle">Kesha</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5>Never Say Never<br>
+                         <div class="subtitle">Justin Bieber</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5>Work from home <br>
+                         <div class="subtitle">fifth harmony</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5>Dont' let me down<br>
+                         <div class="subtitle">The chainsmokers</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5>Firestone<br>
+                         <div class="subtitle">Kygo</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5> Bad Blood<br>
+                         <div class="subtitle">Taylor Swift</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5>Shape of you <br>
+                         <div class="subtitle">Ed Sheeran</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                </li>
+                <li class="songItem">
+                    <span>09</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5>On the way<br>
+                         <div class="subtitle">Alan Walker</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                </li>
+                <li class="songItem">
+                    <span>10</span>
+                    <img src="C:\Users\kush\Desktop\images.jpeg" alt="">
+                    <h5> Titanium<br>
+                         <div class="subtitle">David Guetta</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                </li>
+                
+               </div>
+            </div>
+
+
+            <div class="song_side">
+                <nav>
+                    <ul>
+                        <li>Discover<span></span></li>
+                        <li>MY LIBRARY</li>
+                        <li>RADIO</li>
+                    </ul>
+                    <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input tpye="text" placeholder="Search Music...">
+                    </div>
+                    <div class="user">
+                        <img src="C:\Users\kush\Desktop\download.jpeg" alt="">
+                    </div>
+                </nav>
+                <div class="content">
+                    <h1>Alen Walker-Fade</h1>
+                    <p>You were the shadow to my light did you feel us Another start you fade <br> Away afraid our aim is out of sight Wanna see us Alive</p>
+                
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/a.jpg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                        <h5>Cheap Thrills<br>
+                             <div class="subtitle">Sia</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/b.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                        <h5>Tik Tok <br>
+                             <div class="subtitle">Kesha</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/s.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                        <h5>Never Say Never<br>
+                             <div class="subtitle">JUstin Bieber</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/y.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                        <h5>Work From Home<br>
+                             <div class="subtitle">Fifth harmony</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/x.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                        <h5>Don't let me down<br>
+                             <div class="subtitle">The chainsmokers</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/w.jpg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                        <h5>Firestone<br>
+                             <div class="subtitle">Kygo</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/v.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                        <h5>Bad Blood<br>
+                             <div class="subtitle">Taylor Swift</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/u.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                        <h5>Shape Of You<br>
+                             <div class="subtitle">Ed Sheeran</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/t.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        <h5>On My Way <br>
+                             <div class="subtitle">Alan Walker</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/c.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        <h5>Titanium<br>
+                             <div class="subtitle">David Guetta</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/d.jpg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        <h5>Perfect<br>
+                             <div class="subtitle">Ed Sheeran</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/e.jpg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        <h5>Girl Like You<br>
+                             <div class="subtitle">Justin Biebar</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/f.jpg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        <h5>Baby<br>
+                             <div class="subtitle">Justin Biebar</div>
+                            </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/g.jpeg" alt="">
+                        </div>
+                        <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        <h5>Shake it off<br>
+                             <div class="subtitle">Taylor Swift</div>
+                            </h5>
+                    </li>
+                    
+                    
+                </div>
+
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right" id="pop_art_right"></i>
+                    </div>
+                </div>
+                <div class="item Artists_bx">
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (1).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\13a5f8787e819d247abb25cf36651d8f.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (3).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\images (2).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (4).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (5).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (6).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (7).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\images (3).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (1).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (1).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (1).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (1).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (1).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (1).jpeg" alt="">
+                    </li>
+                    <li>
+                        <img src="C:\Users\kush\Desktop\download (1).jpeg" alt="">
+                    </li>
+                </div>
+            </div>
+            </div>
+
+            <div class="master_play">
+                <div class="wave" id="wave">
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                </div>
+                <img src="C:\Users\kush\Desktop\republic-day-photos-1674619444.jpg" alt="" id="poster_master_play">
+                <h5 id="title">
+                    Vande Mataram
+                    <div class="subtitle">Bankim Chandra</div>
+                </h5>
+                <div class="icon">
+                    <i class="bi shuffle bi-music-note-beamed">next</i>
+                    <i class="bi bi-skip-start-fill"></i>
+                    <i class="bi bi-play-fill" id="masterPlay"></i>
+                    <i class="bi bi-skip-end-fill"></i>
+                    <i class="bi bi-cloud-arrow-down-fill" id="download_music"></i>
+                </div>
+                <span id="currentStart">0:00</span>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+                <span id="currentEnd">0:30</span>
+                <div class="vol">
+                    <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="vol_bar"></div>
+                    <div class="dot" id="vol_dot"></div>
+                </div>
+            </div>
+        </header>
+        <script src="music.js"></script>
+    </body>
+</html>
